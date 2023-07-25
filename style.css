@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #2455f4;
+    color: white;
+}
+.nav{
+    display: flex;
+    height: 57px;
+   
+}
+.box1{
+    margin-left: 130px;
+}
+.logo{
+    padding: 15px;
+}
+.explore{
+    margin-top: 0px;
+    color: white;
+    width: 80px;
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.explore a{
+    display: flex;
+}
+.explore a:hover{
+    text-decoration: underline;
+}
+.explore p{
+    margin: 0;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+.explore img{
+    width: 10px;
+    height: 10px; 
+    margin: 0;
+}
+.plus-icon{
+    color: #ffe500;
+}
+
+.search{
+    padding: 9px;
+}
+.login{
+    margin-left: 10px;
+    padding: 9px;
+}
+
+.nav-link {
+    margin-top: 16px;
+    color: white;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.more{
+    margin-top: 16px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    padding:0px 15px;
+}
+.icon_more{
+    font-size: 10px;
+    transition: transform 1s;
+}
+
+.more-link i:hover {
+    transform: rotate(180deg);
+}
+.card-link {
+    color: white;
+    display: flex;
+    font-size: 15px;
+    font-weight: 550;
+    margin: 0px 10px;
+    margin-top: 16px;
+}
+.card-link p {
+    padding: 0px 1px;
+    font-size: 15px;
+    font-weight: 550;
+}
+/**************************************************/
+.categories{
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.topoffer{
+    margin-left: 100px;
+}
+.grocery{
+    margin-left: 70px;
+}
+.mobile{
+    margin-left: 73px;
+}
+.fashion{
+    margin-left: 77px;
+}
+.electronics{
+    margin-left: 80px;
+}
+.home{
+    margin-left: 82px;
+}
+.Travel{
+    margin-left: 84px;
+}
+.Toys{
+    margin-left: 86px;
+}
+.Two {
+    margin-left: 98px;
+}
+/******************************************************/
+.sale{
+    padding: 4%;
+    text-align: center;
+    display: flex;
+    border-radius: 2px;
+    border-bottom: 2px;
+
+}
+.sale1{
+    position: relative;
+    z-index: 1;
+}
+.sale1 img{
+    margin-bottom: auto;
+    width: 300px;
+    height: 500px;
+    grid-row: 5px;
+    border: none;
+    gap: .5rem;
+    justify-content: space-between;
+}
+.sale2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sale2 img{
+    width: 300px;
+    height: 500px;
+}
+.sale3 img{
+    width: 300px;
+    height: 500px;
+}
+.sale4 img{
+    width: 300px;
+    height: 500px;
+}
+.sale5 img{
+    width: 300px;
+    height: 500px;
+}
+.sale6 img{
+    width: 300px;
+    height: 500px;
+}
+.sale7 img{
+    width: 300px;
+    height: 500px;
+}
+.sale8 img{
+    width: 300px;
+    height: 500px;
+}
+.sale9 img{
+    width: 300px;
+    height: 500px;
+}
+/************************ women ********************************/
+.women {
+    width: 100%;
+    background-color: #f3e9e9;
+    color: black;
+    height: 190px;
+}
+.women h2{
+    margin-top: 2px;
+    letter-spacing: 1.3px;
+    margin-bottom: 2px;
+}
+.women p{
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5px;
+    letter-spacing: .3px;
+}
+/**************************** table**************************/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout:fixed;
+    width: 100%;
+    border-spacing: 2px;
+}
+/**************************** footer *******************/
+.footer{
+    background-color: #1d2232;
+    color: white;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 10px;
+}
+.left-panel {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+.right-panel{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.footer-title {
+    font-size: 13px;
+    color: lightgray;
+    padding: 20px;
+}
+.footer-title~div{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.icon {
+    display: flex;
+    margin-bottom: 5px;
+}
+.icon p{
+    margin-left: 18px;
+}
+.col{
+    display: flex;
+    margin-left: 28px;
+}
+.images{
+    display: flex;
+    margin-left: 20px;
+}
